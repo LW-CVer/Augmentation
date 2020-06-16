@@ -53,19 +53,19 @@
     
     1.不进行数据增强，只进行Resize。损失和验证效果图如下：
 ![](https://github.com/LW-CVer/Augmentation/blob/master/img/1.png)
-![](http://git.yuntongxun.com/liwei11/Data_augmentations/raw/master/img/2.png)
+![](https://github.com/LW-CVer/Augmentation/blob/master/img/2.png)
    
     2.进行随机尺度裁剪、随机旋转、随机颜色扰动。损失、验证以及和1对比效果图如下：
-![](http://git.yuntongxun.com/liwei11/Data_augmentations/raw/master/img/3.png)
-![](http://git.yuntongxun.com/liwei11/Data_augmentations/raw/master/img/4.png)
-![](http://git.yuntongxun.com/liwei11/Data_augmentations/raw/master/img/5.png)
+![](https://github.com/LW-CVer/Augmentation/blob/master/img/3.png)
+![](https://github.com/LW-CVer/Augmentation/blob/master/img/4.png)
+![](https://github.com/LW-CVer/Augmentation/blob/master/img/5.png)
     
     以上组合为测试效果最好的，验证分类准确率最高为63.4%
 
     3.将不同的操作组合并行，为不同组合分配不同触发概率。损失、验证以及和1、2对比效果图如下：
-![](http://git.yuntongxun.com/liwei11/Data_augmentations/raw/master/img/6.png)
-![](http://git.yuntongxun.com/liwei11/Data_augmentations/raw/master/img/7.png)
-![](http://git.yuntongxun.com/liwei11/Data_augmentations/raw/master/img/8.png)
+![](https://github.com/LW-CVer/Augmentation/blob/master/img/6.png)
+![](http://github.com/LW-CVer/Augmentation/blob/master/img/7.png)
+![](http://github.com/LW-CVer/Augmentation/blob/master/img/8.png)
     
     将不同的能提高分类准确率的数据增强组合进行并行，每个组合触发的概率根据提升的效果来分配，实现了目前最好的分类效果66.7%
 
