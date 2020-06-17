@@ -52,8 +52,8 @@
     测试网络：ResNet-50
     
     1.不进行数据增强，只进行Resize。损失和验证效果图如下：
-![](https://github.com/LW-CVer/Augmentation/blob/master/img/1.png)
-![](https://github.com/LW-CVer/Augmentation/blob/master/img/2.png)
+![](https://github.com/LW-CVer/Augmentation/tree/master/img/1.png)
+![](https://github.com/LW-CVer/Augmentation/tree/master/img/2.png)
    
     2.进行随机尺度裁剪、随机旋转、随机颜色扰动。损失、验证以及和1对比效果图如下：
 ![](https://github.com/LW-CVer/Augmentation/blob/master/img/3.png)
